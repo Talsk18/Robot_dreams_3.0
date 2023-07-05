@@ -4,19 +4,15 @@ img {
   width: 100px;
   height: 100px;
   float: right;
-  
 }
 
- #wrapper {
- margin-bottom: 100px;
-} 
-
-
+#wrapper {
+  margin-bottom: 100px;
+}
 
 p,
 h1,
 h3 {
-  
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
   border-bottom: 1px solid red;
@@ -29,7 +25,6 @@ h3 {
 
 h1 {
   font-style: oblique;
-  
 }
 
 th {
@@ -71,7 +66,7 @@ table {
   clear: rigth;
 }
 
-.ul-float {
+.ul {
   margin-top: 50px;
   float: right;
 }
@@ -79,5 +74,3 @@ table {
 h1 {
   margin-bottom: 0px;
 }
-
-
