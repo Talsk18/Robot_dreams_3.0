@@ -1,0 +1,132 @@
+main img {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  position: relative;
+}
+
+main p {
+  color: white;
+  position: absolute;
+  width: 279px;
+  height: 100px;
+  left: 134px;
+  top: 220px;
+
+  font-family: Inder;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.button-1 {
+  position: absolute;
+  width: 282px;
+  height: 50px;
+  left: 110px;
+  top: 400px;
+  font-family: Inder;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+  background: #000000;
+  border: none;
+  text-decoration: none;
+}
+
+.button-2 {
+  position: absolute;
+  width: 261px;
+  height: 49px;
+  left: 483px;
+  top: 400px;
+  font-family: Inder;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  background: #1a53ff;
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+
+.button-3 {
+  position: absolute;
+  width: 261px;
+  height: 49px;
+  left: 63px;
+  top: 800px;
+  background: #1a53ff;
+  font-family: Inder;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+.button-4 {
+  position: absolute;
+  width: 261px;
+  height: 49px;
+  left: 603px;
+  top: 800px;
+  background: #1a53ff;
+  font-family: Inder;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.button-5 {
+  position: absolute;
+  width: 261px;
+  height: 49px;
+  left: 1199px;
+  top: 800px;
+  background: #1a53ff;
+  font-family: Inder;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.our-recommendations p {
+  color: #000000;
+  font-family: Inder;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  position: absolute;
+  width: 421px;
+  height: 50px;
+  left: 63px;
+  top: 470px;
+}
+
+.our-recommendations {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-recommendations img {
+  width: 339px;
+  height: 225px;
+  padding-top: 60px;
+}
+
