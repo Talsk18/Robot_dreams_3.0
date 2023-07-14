@@ -1,5 +1,5 @@
 //1
-let a = new Array(13, 22, 31, 4, 5, 16, 7, 8, 9, 10);
+let a = new Array(13, 22, 31, 4, 5, 16, 7, 8, 9, 10,true);
 //2
 let sum = 0;
 for (let i = 0; i < a.length; i++) {
@@ -17,12 +17,13 @@ for (let i = 1; i < a.length; i++) {
     alert("There isn't a number in the array");
     break;
     
-  }
+  
   for (let j = 0; j < a.length - i; j++) {
     if (a[j] > a[j + 1]) {
       [a[j], a[j + 1]] = [a[j + 1], a[j]];
     }
   }
+}
 }
 max = a[9];
 min = a[0];
