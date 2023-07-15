@@ -1,5 +1,6 @@
 //1
-let a = new Array(13, 22, 31, 4, 5, 16, 7, 8, 9, 10,true);
+let a = new Array(13, 22, 31, 4, 5, 16, 7, 8, 9, 10);
+let isPassed = true;
 //2
 let sum = 0;
 for (let i = 0; i < a.length; i++) {
@@ -7,27 +8,32 @@ for (let i = 0; i < a.length; i++) {
     sum += a[i];
   } else {
     alert("There's not a number in the array");
+    isPassed = false;
     break;
   }
 }
-alert(sum);
+if (isPassed === true) {
+  alert(sum);
+}
+
 //3 I didn't know how to do it, so I used bubbleSort
-for (let i = 1; i < a.length; i++) {
-  if (typeof a[i] != "number") {
-    alert("There isn't a number in the array");
-    break;
-    
-  
-  for (let j = 0; j < a.length - i; j++) {
-    if (a[j] > a[j + 1]) {
-      [a[j], a[j + 1]] = [a[j + 1], a[j]];
+
+if (isPassed === true) {
+  for (let i = 0; i < a.length; i++) {
+    for (let j = 0; j < a.length - i - 1; j++) {
+      if (a[j] > a[j + 1]) {
+        var temp = a[j];
+        a[j] = a[j + 1];
+        a[j + 1] = temp;
+      }
     }
   }
+  max = a[9];
+  min = a[0];
+  alert(max + " " + min + " ");
 }
-}
-max = a[9];
-min = a[0];
-alert(max + " " + min + " ");
+
+
 //5
 for (let i = 0; i < 5; i++) {
   for (let j = 0; j <= i; j++) {
