@@ -6,8 +6,10 @@ let b = first - second;
 let c = first / second;
 let d = first * second;
 
-if (second == 0) {
+if (second === 0) {
   alert("Error");
+} else {
+  alert(c);
 }
 
 if (first < second) {
