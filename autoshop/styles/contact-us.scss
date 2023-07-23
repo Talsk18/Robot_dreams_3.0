@@ -1,32 +1,30 @@
-.contact-form label {
-  display: block;
-  font-family: "Inter", sans-serif;
-  color: black;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-main {
-  width: 100%;
-}
-
 .contact-form {
   background: #f1f1f1;
   border: 5px solid #f1f1f1;
   border-radius: 10px;
   position: absolute;
-  top:25%;
+  top: 25%;
   left: 40%;
   transition: transform 2s;
   transition: opacity 2s;
   transform: scale(200%);
   opacity: 0;
+  label {
+    display: block;
+    font-family: "Inter", sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  &:hover {
+    opacity: 100%;
+    transform: scale(1);
+  }
 }
 
-.contact-form:hover {
-  opacity: 100%;
-  transform: scale(1);
-  
+.contact-us {
+  width: 100%;
+  height: 760px;
 }
 
 h1 {
