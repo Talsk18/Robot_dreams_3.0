@@ -105,8 +105,6 @@ let div = division(1, -1);
 let multip = multiplication(1, -1);
 let substract = substraction(-4, 2);
 
-
-
 p.textContent = add;
 p1.textContent = div;
 p2.textContent = multip;
