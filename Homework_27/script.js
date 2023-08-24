@@ -26,7 +26,7 @@ const multiplication = (a, b) => {
   }
 };
 
-function substraction(a, b) {
+function substraction(a, b) {  
   if (typeof a === "number" || typeof b === "number") {
     return a - b;
   } else {
@@ -58,7 +58,7 @@ const max = (a) => {
         a[j + 1] = temp;
       }
     }
-  }
+  }  
   let max = a[a.length - 1];
   return max;
 };
