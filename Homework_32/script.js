@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
                              </tr>`
                 table.insertAdjacentHTML("beforeend", row);
             });
-
+        //console.log for developers only
         }).catch((error) => console.log(error));
 
 })
