@@ -5,7 +5,7 @@ let accumulator = new functions.Accumulator(20);
 
 describe('Several tests', function () {
     it('checkArray', function () {
-        expect(functions.checkArray(a, isPassed)).toBeDefined();
+        expect(functions.checkArray(a, isPassed)).toBe(125);
     });
 
     it('bubbleSort', function () {
