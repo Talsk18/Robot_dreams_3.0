@@ -1,13 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
     let p = document.querySelector("#time");
 
-
-
     setInterval(function () {
         let date1 = new Date('2024-01-01T23:59:59');
-            let date2 = new Date();
+        let date2 = new Date();
         function calcDate(date1, date2) {
-            
+
             let diff = Math.floor(date1.getTime() - date2.getTime());
             let day = 1000 * 60 * 60 * 24;
 
@@ -22,13 +20,10 @@ document.addEventListener('DOMContentLoaded', function () {
             let minutesLastDay = Math.floor(date1.getMinutes() - date2.getMinutes());
             let secondsLastDay = Math.floor(date1.getSeconds() - date2.getSeconds());
 
-
             let result = `${days}d ${hoursLastDay}h ${minutesLastDay}m ${secondsLastDay}s`;
 
             return result;
-
         }
         p.innerText = calcDate(date1, date2);
-        console.log(calcDate(date1, date2));
     }, 1000);
 });
